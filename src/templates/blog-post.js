@@ -25,6 +25,7 @@ export const pageQuery = graphql`
         path
         tags
         excerpt
+        thumbnail
       }
     }
   }

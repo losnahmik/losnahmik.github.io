@@ -1,10 +1,11 @@
 ---
 path: "/image-optimization"
 date: "2019-05-05"
-title: "Image Loading Optimization"
+title: "테스트"
 tags: ['image', 'performance', 'optimization', 'preload', 'intersectionobserver']
 excerpt: ""
 type: ""
+thumbnail: "earthvillage.png"
 ---
 
 ## 1. Data URI scheme (base64 encoding)

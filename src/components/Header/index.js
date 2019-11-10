@@ -47,7 +47,8 @@ export class Header extends React.Component {
 const Title = () => (
   <Link to="/">
     <span>
-      <Emoji>🐫</Emoji> and <Emoji>🐍</Emoji>
+      Start-up + O2O + Brand + Design + Consult +
+      <br/><Emoji>🚀</Emoji>Business Development <br/>
     </span>
   </Link>
 );
@@ -69,8 +70,7 @@ const Inner = styled.div`
   display: flex;
   padding: 16px;
   margin: 0 auto;
-  max-width: 720px;
-  align-items: center;
+  max-width: 1000px;
   justify-content: space-between;
   a {
     font-weight: bold;

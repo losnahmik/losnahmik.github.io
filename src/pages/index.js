@@ -19,6 +19,7 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
             date={frontmatter.date}
             excerpt={frontmatter.excerpt}
             tags={frontmatter.tags}
+            thumbnail={frontmatter.thumbnail}
           />
         );
       })}
@@ -42,6 +43,7 @@ export const query = graphql`
             tags
             excerpt
             type
+            thumbnail
           }
         }
       }

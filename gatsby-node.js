@@ -14,6 +14,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
             title
             excerpt
             tags
+            thumbnail
           }
         }
       }

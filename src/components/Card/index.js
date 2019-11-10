@@ -3,8 +3,9 @@ import styled from "styled-components";
 import { Link } from "gatsby";
 import { Tag } from "../Tag";
 
-export const Card = ({postType, path, title, date, excerpt, tags}) => (
+export const Card = ({postType, path, title, date, excerpt, tags, thumbnail}) => (
   <CardBase postType={postType}>
+  <img src={require(`../../images/${thumbnail || "earthvillage.png"}`)}/>
     <Link to={path}>
       {title}
     </Link>
@@ -15,14 +16,15 @@ export const Card = ({postType, path, title, date, excerpt, tags}) => (
 )
 
 const CardBase = styled.article`
-  border-top: 1px solid #303030;
-  padding: 16px 0;
+  border-top: 0px solid #303030;
+  padding: 8px 0;
   position: relative;
   transition: transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   &:hover {
     transform: translateY(-10px);
   }
   a {
+    margin-top: 8px;
     font-weight: bold;
     word-break: break-all;
     text-decoration: none;

@@ -15,9 +15,9 @@ const Grid = styled.div`
   width: 100%;
   margin: 0 auto;
   display: grid;
-  max-width: 720px;
+  max-width: 1000px;
   grid-auto-rows: minmax(160px, auto);
-  grid-gap: 32px;
+  grid-gap: 26px;
   margin-bottom: 80px;
-  grid-template-columns: repeat(auto-fill, minmax(216px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 `;

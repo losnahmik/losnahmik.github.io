@@ -6,7 +6,7 @@ import { media } from "../../utils/style";
 const menus = [
   { name: "Posts", route: "/" },
   { name: "About", route: "/about" },
-  { name: "🤙", route: "/projects" }
+  { name: "👉", route: "/projects" }
 ];
 
 export const Menu = () => (
